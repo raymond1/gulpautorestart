@@ -1,0 +1,33 @@
+{
+  "name": "pgrep",
+  "version": "0.0.6",
+  "description": "pgrep api for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xtuple/node-pgrep.git"
+  },
+  "keywords": [
+    "pgrep",
+    "linux",
+    "unix",
+    "ps",
+    "pkill"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtuple/node-pgrep/issues"
+  },
+  "homepage": "https://github.com/xtuple/node-pgrep",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.10",
+    "lodash": "^2.4.1"
+  }
+}

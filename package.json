@@ -2,10 +2,18 @@
   "name": "test2",
   "version": "1.0.0",
   "description": "Test package",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./monitor-script.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "pgrep": "^0.0.6",
+    "ps-node": "^0.1.6"
+  }
 }
