@@ -1,1 +1,5 @@
+To start the project, go into the root directory and type in gulp. That command should start the node server and gulp server and monitor for changes in the gulp file and in the js files.
+
 I made this project to explore react stuff.
+
+node_modules/.bin/babel src/client/compiled --output-dir public

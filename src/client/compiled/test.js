@@ -1,7 +1,9 @@
 'use strict';
+const title = 'Test title 3';
+const e = <h1>{title}</h1>;
 
-const e = React.createElement;
-
+ReactDOM.render(e,document.getElementById('test'));
+/*
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
@@ -20,3 +22,5 @@ class LikeButton extends React.Component {
     );
   }
 }
+*/
+console.log('test');
